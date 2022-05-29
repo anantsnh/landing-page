@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.herosection {
+    background-color: #1F2937;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.heromargin {
+    display: flex;
+    flex-direction: row;
+    margin: 8em;
+    justify-content: space-between;
+
+}
+
+.subhero {
+    display: flex;
+    flex-direction: column;
+}
+
+.heromaintext {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signupbutton {
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.placeholder {
+    background-color: grey;
+    height: 12em;
+    width: 28em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infosection {}
+
+.quotesection {}
+
+.ctasection {}
+
+.footerarea {
+    background-color: #1F2937;
+}
+
+.headerarea {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    align-items: center;
+    margin: 0;
+    background-color: #1F2937;
+}
+
+.title {
+    margin-left: 8em;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    margin-right: 8em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    color: white;
+}
