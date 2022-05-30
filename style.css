@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .herosection {
@@ -54,14 +56,126 @@ body {
     align-items: center;
 }
 
-.infosection {}
+.infosection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 4em;
+}
 
-.quotesection {}
+.infotext {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 2em;
+}
 
-.ctasection {}
+.infoimages {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3em;
+}
+
+.infoimage {
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    width: 10em;
+    height: 10em;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 0.5em;
+}
+
+.imagetext {
+    font-size: 18px;
+    color: darkgrey;
+    margin-bottom: 2em;
+}
+
+.quotesection {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin-top: 3em;
+}
+
+.quoteauthorsub {
+    display: flex;
+    align-content: start flex;
+    /*border: 1px solid black;*/
+}
+
+.quoteauthor {
+    font-weight: 800;
+    font-size: 24px;
+    color: #1F2937;
+    margin-left: 21em;
+    margin-bottom: 3em;
+}
+
+.ctasection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ctabluearea {
+    color: #F9FAF8;
+    background: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6em;
+    padding: 2em;
+    border-radius: 8px;
+    gap: 18em;
+}
+
+.ctamessage {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctaheader {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.ctasubtext {
+    font-size: 18px;
+}
+
+.ctabutton {
+    border: 1px solid #F9FAF8;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px;
+}
 
 .footerarea {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 12px;
+    padding: 2em;
 }
 
 .headerarea {
@@ -74,7 +188,7 @@ body {
 }
 
 .title {
-    margin-left: 8em;
+    margin-left: 5.5em;
     font-size: 24px;
     color: #F9FAF8;
 }
